@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Pridi', serif;
+}
+
+body {
+    margin:  0;
+    padding: 1;
+  }
+
+.AboutMe-Body, .Educacion, .Experiencia-Referencias, .Contact{
+    background-color: #D9D9D9;
+    border-radius: 10px
+}
+
+#Options_Bar{
+    background-color: #FDCA68;
+}
+#Options_Bar section:nth-child(1){
+    font-family: 'KoHo', sans-serif;
+}
+#Options_Bar section:nth-child(3):hover, section:nth-child(4):hover, section:nth-child(5):hover, section:nth-child(6):hover{  /* Sobre mí */
+    background-color: white;
+}
+
+#ImagenAbout:hover{
+    box-shadow: 2px 2px 5px #999;
+}
